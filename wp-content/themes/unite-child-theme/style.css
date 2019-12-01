@@ -1,0 +1,36 @@
+/**
+ * Theme Name: Unite Child Theme
+ * Template: unite
+ */
+@import url('../unite/style.css');
+
+.thumbnail {
+  height: 500px;
+  object-fit: cover;
+}
+.film .entry-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.film .entry-content{
+  min-height: 160px;
+  margin-top: 14px;
+}
+.tax-item{
+    color: #fd4e19;
+	font-size: 16px;
+}
+.tax-item__val{
+	margin-right: 5px;
+	color: #762ee6;
+}
+.film {
+    background: #f7f7f7;
+    padding: 10px;
+}
+.widget-film-container{
+	margin-bottom: 30px;
+}
+.widget-film-container h2{
+	margin: 0;
+}
